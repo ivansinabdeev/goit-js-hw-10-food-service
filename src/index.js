@@ -1,5 +1,5 @@
 import menuItems from "../src/menu.json";
-import menuTemplate from "../src/templates//menu.hbs";
+import menuTemplate from "../src/templates/menu.hbs";
 const menuGallery = document.querySelector(".menu");
 const markup = menuTemplate(menuItems);
 menuGallery.insertAdjacentHTML("afterbegin", markup);
